@@ -11,7 +11,7 @@ module.exports = async function (context, req) {
     }
 
 switch (req.method) {
-    case 'GET':
+    case 'GET': //using get 
         await get(context, req);
         break;
     
