@@ -1,4 +1,4 @@
-const db = require('../shared/db')
+const db = require('../shared/db') //henter db.js
 
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
